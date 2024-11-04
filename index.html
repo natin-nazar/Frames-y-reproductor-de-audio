@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFrame and Audio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="iframe">
+      <abbr title="YouTube video player">YouTube</abbr>
+      <iframe
+        src="https://www.youtube.com/embed/1KAHbxBqLjA?si=mbC4Q5SkZyGRWbWw"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section class="audio">
+      <abbr title="by faespencer">Background Music (Instrumental)</abbr>
+      <audio src="audio/audio.mp3" autoplay controls loop muted>
+        Your browser does not support the audio element.
+      </audio>
+      <abbr title="by faespencer">Background Music (Instrumental)</abbr>
+      <audio src="audio/audio.ogg" autoplay controls loop muted>
+        Your browser does not support the audio element.
+      </audio>
+      <abbr title="by faespencer">Background Music (Instrumental)</abbr>
+      <audio src="audio/audio.wav" autoplay controls loop muted>
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </body>
+</html>
